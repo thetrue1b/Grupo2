@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #022d3c;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 190px;
+    position: absolute;
+    top: 8px;
+    margin-left: 5%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20 10 20 10;
+    color: rgb(255, 255, 255);
+}
+li:hover {
+    background-color: #d0833b;
+}
+
+
+#imagem_fundo {
+    background: url("img/fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: #000000;
+    padding-top: 20%;
+    text-align: center;
+    font-size: 85px;
+    line-height: 0.4;
+    margin-left: 33.5%;
+    margin-right: 35%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titulo1 {
+    color: #000000;
+    font-size: 85px;
+    line-height: 0.4;
+    margin-left: 27%;
+    margin-right: 35%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#titulo2 {
+    color: #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#subtitulo {
+    color: rgb(0, 0, 0);
+    margin-left: 33.5%;
+    margin-right: 35%;
+    border-top: 2px solid rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#txt1 {
+    color: rgb(255, 255, 255);
+    margin-left: 88px;
+    font-size: 17px;
+}
+#txt2 {
+    color: rgb(255, 255, 255);
+    margin-left: 65px;
+    font-size: 17px;
+}
+#txt3 {
+    color: rgb(255, 255, 255);
+    margin-left: 33%;
+    font-size: 17px;
+}
+#txt4 {
+    color: rgb(255, 255, 255);
+    margin-left: 88px;
+    font-size: 17px;
+}
+#conteudos {
+    color: #d0833b;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#introduçao {
+    color: #000000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#contato {
+    color: #d0833b;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 51px;
+}
+
+.icones {
+    width: 250px; 
+    text-align: center; 
+}
+section {
+    padding: 20px;
+    float: left;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 13.5%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+}
+
+.titulointroducao {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulosobrenos {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer1 {
+    background-color: #1a6974;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: white;
+}
+
+footer2 {
+    background-color: #1a6974;
+    float: left;
+    width: 100%;
+    height: 60%;
+    color: white;
+}
+
+@media all and (max-width: 762px) {
+   #menu {
+       visibility: hidden;
+   } 
+   .coluna, .dois, .tres, .quatro {
+        display: block;   
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+   }
+
+   #subtitulo {
+    color: rgb(0, 0, 0);
+    margin-left: 30%;
+    margin-right: 35%;
+    border-top: 2px solid rgb(0, 0, 0);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+   #txt1 {
+    color: rgb(255, 255, 255);
+    margin-left: 7px;
+}
+#txt2 {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+#txt3 {
+    color: rgb(255, 255, 255);
+    margin-left: 2%;
+}
+#txt4 {
+    color: rgb(255, 255, 255);
+    margin-left: 5px;
+}
+
+#titulo {
+    color: #000000;
+    padding-top: 30%;
+    text-align: center;
+    font-size: 70px;
+    line-height: 1;
+    margin-left: 28%;
+    margin-right: 32%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+   footer2 {
+    background-color: #1a6974;
+    float: left;
+    width: 100%;
+    height: 1150px;
+    color: white;
+    text-align: center;
+}
+
+footer1 {
+    background-color: #1a6974;
+    float: left;
+    width: 100%;
+    height: 350px;
+    color: white;
+}
+
+#imagem_fundo {
+    background: url("img/fundo1.png");
+    height: 100%;
+    background-size: cover;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+   #logodiv {
+       width: 100%;
+       position: relative;
+       text-align: center;
+       padding: 0px;
+   }
+   #logo {
+       margin-left: 0px;
+       transform: translateX(-50%);
+   }
+
+   @font-face {
+    font-family: Maddac;
+    src: url(FontsFree-Net-Maddac.ttf);
+   }
+}

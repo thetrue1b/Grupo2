@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,500&family=Rowdies:wght@300;400&display=swap');
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #022d3c;
+    color: white;
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+#logo {
+    width: 190px;
+    position: absolute;
+    top: 8px;
+    margin-left: 42%;
+}
+#menu {
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top: 0px;
+}
+li {
+    float: left;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20 10 20 10;
+    color: rgb(255, 255, 255);
+}
+li:hover {
+    background-color: #d0833b;
+}
+
+
+#imagem_fundo {
+    background: url("img/fundo.jpg");
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+}
+#titulo {
+    color: rgb(0, 0, 0);
+    padding-top: 20%;
+    font-size: 70px;
+    line-height: 0.4;
+    margin-left: 33.5%;
+    margin-right: 35%;
+    font-family: Maddac;
+}
+#subtitulo {
+    color: rgb(0, 0, 0);
+    margin-left: 33.5%;
+    margin-right: 35%;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+#conteudos {
+    color: #d0833b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#acao {
+    color: white;
+    border: 1px white solid;
+    padding: 10px 20px 10px 20px ;
+}
+.icone {
+    width: 51px;
+}
+
+.icones {
+    width: 250px; 
+    text-align: center; 
+}
+section {
+    padding: 20px;
+    float: left;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+#espacamento {
+    margin-top: 95px;
+}
+
+#canva {
+ position: relative;
+ width: 100%; 
+ height: 0;
+ padding-top: 100.0000%;
+ padding-bottom: 48px;
+ box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16);
+ overflow: hidden;
+ border-radius: 8px;
+ will-change: transform;
+}
+
+.imgeco {
+    width: 90%;
+    height: 30%;
+}
+
+.coluna {
+    float: left;
+    padding: 0 5%;
+    position: relative;
+}
+.dois {
+    width: 40%;
+}
+.quatro {
+    width: 13.5%;
+}
+.tres {
+    width: 29%;
+    padding: 0 2%;
+}
+
+.justificado {
+    text-align: justify;
+}
+.centralizado {
+    text-align: center;
+
+}
+footer {
+    background-color: #1a6974;
+    float: left;
+    width: 100%;
+    height: 60%;
+    color: white;
+}
+
+footer2 {
+    background-color: #1a6974;
+    float: left;
+    width: 100%;
+    height: 30%;
+    color: white;
+}
+
+@media all and (max-width: 762px) {
+   #menu {
+       visibility: hidden;
+   } 
+   .coluna, .dois, .tres, .quatro {
+        display: block;   
+        width: 80%;
+        padding: 0;
+        margin: 10px auto;
+        float: none;
+   }
+   #espacamento {
+    margin-top: 0px;
+    }
+   #logodiv {
+       width: 100%;
+       position: relative;
+       text-align: center;
+       padding: 0px;
+   }
+   #logo {
+       margin-left: 0px;
+       transform: translateX(-50%);
+   }
+
+   @font-face {
+    font-family: Maddac;
+    src: url(FontsFree-Net-Maddac.ttf);
+   }
+}
