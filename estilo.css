@@ -49,7 +49,7 @@ li:hover {
     color: #000000;
     padding-top: 20%;
     text-align: center;
-    font-size: 85px;
+    font-size: 75px;
     line-height: 0.4;
     margin-left: 33.5%;
     margin-right: 35%;
@@ -81,26 +81,27 @@ li:hover {
 #txt1 {
     color: rgb(255, 255, 255);
     margin-left: 88px;
-    font-size: 17px;
+    font-size: 14px;
 }
 #txt2 {
     color: rgb(255, 255, 255);
     margin-left: 65px;
-    font-size: 17px;
+    font-size: 14px;
 }
 #txt3 {
     color: rgb(255, 255, 255);
-    margin-left: 33%;
-    font-size: 17px;
+    margin-left: 34%;
+    font-size: 14px;
 }
 #txt4 {
     color: rgb(255, 255, 255);
     margin-left: 88px;
-    font-size: 17px;
+    font-size: 14px;
 }
 #conteudos {
     color: #d0833b;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
 }
 #introduçao {
     color: #000000;
@@ -161,6 +162,7 @@ section {
 
 .titulointroducao {
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
 }
 
 .titulosobrenos {
